@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-one`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -107,6 +107,10 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
 ***
+
+Logical data model between products and customer purchases:
+
+ <img src="./images/prompt1.png" width="500">
 
 ## Section 2:
 You can start this section following *session 2*.
@@ -210,4 +214,17 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+
+Databases are often perceived as objective tools for storing and organizing information. However, database design inevitably reflects the assumptions, values, and priorities of its creators. Decisions about how information is categorized and what relationships are permitted can have significant social consequences.
+
+The article discusses Pakistan's National Database and Registration Authority (NADRA), which requires individuals to establish their identities through recognized familial relationships. The database assumes a conventional family structure involving two married parents. Individuals who do not conform to these assumptions, such as single mothers and orphans, may encounter difficulties obtaining identification documents. Since these documents are essential for accessing public services, seemingly minor database design decisions can lead to inequality and marginalization.
+
+Similar value systems are embedded in databases we encounter in everyday life. For example, financial institutions use credit histories, income, and employment information to assess creditworthiness. While these criteria are useful for predicting financial risk, they may disadvantage individuals with limited credit histories or irregular employment, potentially reinforcing socioeconomic inequalities.
+
+Another example is online recruitment platforms, which categorize applicants based on educational qualifications and employment histories. Automated screening systems may favour candidates with conventional academic and professional backgrounds, disadvantaging those with nontraditional career paths.
+
+From an engineering perspective, database standardization is essential for consistency, accuracy, and efficiency. However, standardization requires simplifying complex real-world information into predefined categories. Problems arise when these simplifications fail to accommodate individual circumstances.
+
+I believe database designers should recognize these limitations and develop flexible systems that accommodate diverse situations. Ultimately, technical efficiency should not come at the expense of fairness, inclusivity, and individual rights.
+
 ```
