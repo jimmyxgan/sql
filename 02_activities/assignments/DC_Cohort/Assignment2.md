@@ -14,11 +14,11 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] 🚨🚨🚨 After forking, open the **Actions** tab in your own SQL repository. If prompted, click **I understand my workflows, go ahead and enable them** before opening your assignment pull request. This enables automatic SQL feedback on your pull request.
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] 🚨🚨🚨 After forking, open the **Actions** tab in your own SQL repository. If prompted, click **I understand my workflows, go ahead and enable them** before opening your assignment pull request. This enables automatic SQL feedback on your pull request.
+- [x] Create a branch called `assignment-two`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -56,9 +56,26 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
-```
-Your answer...
-```
+PROMPT 1 RESPONSE:
+
+<img src="./images/prompt2-1.png" width="500">
+
+
+
+PROMPT 2 RESPONSE:
+
+<img src="./images/prompt2-2.png" width="500">
+
+
+
+
+PROMPT 3 RESPONSE:
+
+<img src="./images/prompt2-3.png" width="300">
+
+
+
+
 
 ***
 
@@ -194,4 +211,15 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 ```
 Your thoughts...
+
+In Neural Nets Are Just People All the Way Down, Vicki Boykis highlights how artificial intelligence, despite appearing highly automated, fundamentally depends on human labour and judgment. The article raises several ethical concerns surrounding labour practices, algorithmic bias, and accountability.
+
+One important issue often overlooked is the human labour involved in developing AI systems. Boykis describes how ImageNet, a foundational dataset for computer vision, relied on large numbers of workers manually classifying millions of images, often for very little compensation. Although these datasets have contributed significantly to advancements in AI, the workers responsible for creating them receive relatively little recognition. This raises questions about fair compensation and the distribution of economic benefits.
+Another major concern is algorithmic bias. AI models learn from datasets organized and labelled by humans, meaning subjective judgments and existing social prejudices can become embedded in their predictions. Boykis discusses ImageNet Roulette, which demonstrated how image classification systems could assign inappropriate or offensive labels to people. Such biases are particularly concerning when AI is used in applications such as policing and facial recognition.
+
+The rapid proliferation of large language models further amplifies these concerns. Although the article predates modern LLMs, its arguments remain relevant. Training data, human feedback, and content moderation all involve subjective decisions that can influence millions of users while remaining largely invisible.
+
+Ultimately, I believe the central ethical issue is accountability. AI should not be treated as an entirely objective or autonomous technology. Developers must recognize the human contributions underlying these systems, ensure fair treatment of workers, evaluate potential biases, and remain accountable for the societal impacts of their products. Technological progress should be measured not only by performance, but also by fairness, transparency, and social responsibility.
+
+
 ```
